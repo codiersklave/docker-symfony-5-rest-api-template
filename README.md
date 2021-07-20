@@ -1,4 +1,14 @@
-# Docker / Apache 2 / PHP 8 / MySQL 8 / Symfony 5 / REST API
+# Bowmore
+
+_**REST API Template** - Docker, Apache 2, PHP 8, MySQL 8, Symfony 5._
+
+---
+
+**Bowmore is a distillery that produces Scotch whisky on the Isle of Islay, an island of the Inner Hebrides. The 
+distillery, which lies on the South Eastern shore of Loch Indaal, is one of the oldest in Scotland and is said to have 
+been established in 1779. The distillery is owned by Morrison Bowmore Distillers Ltd, a holding company owned by Beam 
+Suntory, a subsidiary of Japanese multinational drinks conglomerate Suntory. Morrison Bowmore also own the Auchentoshan 
+and Glen Garioch distilleries and produce the McClelland's Single Malt range of bottlings.**
 
 ## Description
 
