@@ -1,6 +1,6 @@
-# Bowmore
+# Symfony REST API Template
 
-_**REST API Template** - Docker, Apache 2, PHP 8, MySQL 8, Symfony 5._
+_Docker, Apache 2, PHP 8, MySQL 8, Symfony 5._
 
 ---
 
