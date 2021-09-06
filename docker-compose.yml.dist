@@ -1,7 +1,7 @@
 version: "3"
 services:
-    bowmore_app:
-        container_name: bowmore_app
+    app:
+        container_name: app
         build:
             context: .
             dockerfile: Dockerfile
@@ -10,16 +10,16 @@ services:
         ports:
             - "80:80"
         depends_on:
-            - bowmore_db
-    bowmore_db:
-        container_name: bowmore_db
+            - db
+    db:
+        container_name: db
         image: mysql:8.0
         ports:
             - "3306:3306"
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: bowmore_db
-            MYSQL_USER: bowmore
-            MYSQL_PASSWORD: bowmore
+            MYSQL_DATABASE: project_db
+            MYSQL_USER: project_db
+            MYSQL_PASSWORD: project_db
         volumes:
             - ./data/:/var/lib/mysql
